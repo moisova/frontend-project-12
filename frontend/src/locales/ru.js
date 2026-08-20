@@ -1,0 +1,57 @@
+export default {
+  login: {
+    title: "Авторизация",
+    username: "Ваш ник",
+    password: "Пароль",
+    submit: "Войти",
+    accountQuestion: "Нет аккаунта?",
+    signup: "Регистрация",
+    authError: "Неверные имя пользователя или пароль",
+  },
+  signup: {
+    title: "Регистрация",
+    username: "Имя пользователя",
+    password: "Пароль",
+    confirm: "Подтвердите пароль",
+    signup: "Зарегистрироваться",
+    accountQuestion: "Уже есть аккаунт?",
+    alreadyExists: "Такой пользователь уже существует",
+  },
+  validation: {
+    required: "Обязательное поле",
+    usernameRange: "От 3 до 20 символов",
+    passwordMin: "Не менее 6 символов",
+    mustMatch: "Пароли должны совпадать",
+    exist: "Канал с таким именем уже существует",
+  },
+  chat: {
+    createChannel: "Создать канал",
+    send: "Отправить",
+    logout: "Выйти",
+    newMessage: "Новое сообщение",
+  },
+  dropdown: {
+    rename: "Переименовать",
+    delete: "Удалить",
+  },
+  modal: {
+    rename: "Переименовать",
+    delete: "Удалить",
+    cancel: "Отмена",
+    createChannel: "Создать канал",
+    deleteConfirm: "Вы хотите удалить канал {{name}}?",
+    deleteChannel: "Удаление",
+    channelName: "Имя канала",
+    newName: "Новое имя канала",
+  },
+  toast: {
+    connectionErr: "Ошибка соединения",
+    renamed: "Канал переименован",
+    created: "Канал создан",
+    deleted: "Канал удалён",
+  },
+  notFound: {
+    errCode: "404",
+    title: "Страница не найдена",
+  },
+};

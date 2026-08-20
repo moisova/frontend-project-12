@@ -1,0 +1,57 @@
+export default {
+  login: {
+    title: "Log in",
+    username: "Your username",
+    password: "Password",
+    submit: "Log in",
+    accountQuestion: "No account?",
+    signup: "Sign up",
+    authError: "Invalid username or password",
+  },
+  signup: {
+    title: "Sign up",
+    username: "Username",
+    password: "Password",
+    confirm: "Confirm password",
+    signup: "Sign up",
+    accountQuestion: "Already have an account?",
+    alreadyExists: "This user already exists",
+  },
+  validation: {
+    required: "Required field",
+    usernameRange: "From 3 to 20 characters",
+    passwordMin: "At least 6 characters",
+    mustMatch: "Passwords must match",
+    exist: "Channel with this name already exists",
+  },
+  chat: {
+    createChannel: "Create channel",
+    send: "Send",
+    logout: "Log out",
+    newMessage: "New message",
+  },
+  dropdown: {
+    rename: "Rename",
+    delete: "Delete",
+  },
+  modal: {
+    rename: "Rename",
+    delete: "Delete",
+    cancel: "Cancel",
+    createChannel: "Create channel",
+    deleteConfirm: "Are you sure you want to delete channel {{name}}?",
+    deleteChannel: "Delete channel",
+    channelName: "Channel name",
+    newName: "New channel name",
+  },
+  toast: {
+    connectionErr: "Connection error",
+    renamed: "Channel renamed",
+    created: "Channel created",
+    deleted: "Channel deleted",
+  },
+  notFound: {
+    errCode: "404",
+    title: "Page is not found",
+  },
+};

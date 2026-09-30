@@ -2,6 +2,8 @@
 
 Single-page web application (SPA) for real-time messaging, built as a final project for the Hexlet Frontend Development program.
 
+**[Live Demo](https://frontend-project-12-zxlx.onrender.com/)**
+
 ## Overview
 
 * **Real-time Communication:** Instant messaging and channel updates powered by WebSockets (`Socket.io`).
